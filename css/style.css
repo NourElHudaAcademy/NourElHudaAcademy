@@ -502,10 +502,20 @@ a.nav-link {
   height: 120px;
 }
 
+@media (max-width: 768px) {
+  .light {
+    width: 3em;
+    height: 4em;
+    margin-bottom: 1em;
+    align-content: center;
+  }
+}
+
 .light {
   width: 5em;
   height: 6em;
   margin-bottom: 1em;
+  align-content: center;
 }
 
 .request {
