@@ -260,6 +260,35 @@ a.nav-link {
   margin: 45px 0;
 }
 
+.image-row {
+  /* background-image: url('../images/white_mosque.png'); Set the small image */
+  background-repeat: repeat-x; /* Repeat the image horizontally */
+  width: 5%;
+  height: 5%;
+}
+
+.footter-image {
+  height: 3em;
+  /* width: 100%; */
+  margin: 0;
+  padding: 0;
+
+}
+
+.offer_section {
+
+  background-image: url('../images/ayat.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  background-size: 100% 100%;
+  opacity: 0.9;
+  margin-top: 8em;
+  border-radius: 10%;
+}
+
+
+
 .offer_section .content-box .img-box {
   min-width: 125px;
   min-height: 115px;
@@ -280,6 +309,7 @@ a.nav-link {
   width: 55px;
   height: auto;
 }
+
 
 .offer_section .content-box:hover .img-box {
   background-color: #8f9440;
@@ -499,6 +529,7 @@ a.nav-link {
   background-color: #252525;
   color: #fefdfc;
   font-family: "Lato", sans-serif;
+  padding-bottom: 0;
 }
 
 .info_section h5 {
