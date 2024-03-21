@@ -263,17 +263,10 @@ a.nav-link {
 .image-row {
   /* background-image: url('../images/white_mosque.png'); Set the small image */
   background-repeat: repeat-x; /* Repeat the image horizontally */
-  width: 5%;
-  height: 5%;
+  width: 10%;
+  height: 10%;
 }
 
-.footter-image {
-  height: 3em;
-  /* width: 100%; */
-  margin: 0;
-  padding: 0;
-
-}
 
 .offer_section {
 
@@ -281,7 +274,7 @@ a.nav-link {
   background-position: center;
   background-repeat: no-repeat;
   background-color: white;
-  background-size: 100% 100%;
+  background-size: cover;
   opacity: 0.9;
   margin-top: 8em;
   border-radius: 10%;
