@@ -502,6 +502,12 @@ a.nav-link {
   height: 120px;
 }
 
+.contact_section .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 @media (max-width: 768px) {
   .light {
     width: 3em;
@@ -512,13 +518,17 @@ a.nav-link {
 }
 
 .light {
-  width: 5em;
-  height: 6em;
+  width: 4em;
+  height: 5em;
   margin-bottom: 1em;
   align-content: center;
+  align-self: center;
+  align-items: center;
+  -ms-flex-align: center;
 }
 
 .request {
+  text-align: center;
   padding-top: 1em;
 }
 .nour-el-huda{
