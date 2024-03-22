@@ -345,7 +345,7 @@ a.nav-link {
 }
 
 .about_section .img-box img {
-  width: 100%;
+  width: 85%;
 }
 
 .about_section .detail-box {
@@ -512,7 +512,6 @@ a.nav-link {
   .light {
     width: 3em;
     height: 4em;
-    margin-bottom: 1em;
     align-content: center;
   }
 }
@@ -520,7 +519,6 @@ a.nav-link {
 .light {
   width: 4em;
   height: 5em;
-  margin-bottom: 1em;
   align-content: center;
   align-self: center;
   align-items: center;
