@@ -372,6 +372,9 @@ a.nav-link {
   padding: 0;
 }
 
+.about_section .img-box {
+  text-align: center;
+}
 .about_section .img-box img {
   width: 85%;
 }
