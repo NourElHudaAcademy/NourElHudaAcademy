@@ -8,7 +8,7 @@
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
@@ -21,8 +21,8 @@
   color: white;
 }
 
-.fa.fa-twitter::before{
-	content:"𝕏";
+.fa.fa-twitter::before {
+  content: "𝕏";
 }
 
 body {
@@ -114,7 +114,7 @@ body {
   margin: 0 auto;
   display: block;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 a,
@@ -132,7 +132,7 @@ a:focus {
 .btn:focus {
   outline: none !important;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -151,8 +151,8 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
 }
 
 a.nav-link {
@@ -190,14 +190,14 @@ a.nav-link {
   width: 90%;
   margin: 0 auto;
   -webkit-transform: translateY(50px);
-          transform: translateY(50px);
+  transform: translateY(50px);
   height: 95%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .slider_section .detail-box {
@@ -256,12 +256,12 @@ a.nav-link {
 .slider_section ol.carousel-indicators {
   margin: 0;
   -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
   bottom: -75px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .slider_section ol.carousel-indicators li {
@@ -282,14 +282,15 @@ a.nav-link {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   margin: 45px 0;
 }
 
 .image-row {
   /* background-image: url('../images/white_mosque.png'); Set the small image */
-  background-repeat: repeat-x; /* Repeat the image horizontally */
+  background-repeat: repeat-x;
+  /* Repeat the image horizontally */
   width: 10%;
   height: 10%;
 }
@@ -317,11 +318,11 @@ a.nav-link {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   margin-right: 25px;
 }
 
@@ -363,8 +364,8 @@ a.nav-link {
 
 .about_section .row {
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .about_section .row .col-md-6 {
@@ -411,11 +412,11 @@ a.nav-link {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -556,16 +557,26 @@ a.nav-link {
   text-align: center;
   padding-top: 1em;
 }
-.nour-el-huda{
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Choose a suitable font-family */
-    font-size: 36px; /* Adjust the font size */
-    font-weight: bold; /* Set font weight to bold */
-    color: #4CAF50; /* Set the color of the title */
-    text-align: center; /* Align the title to the center */
-    text-transform: uppercase; /* Convert text to uppercase */
-    letter-spacing: 2px; /* Add some letter spacing */
-    margin: 20px 0; /* Add some margin for spacing */
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+
+.nour-el-huda {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* Choose a suitable font-family */
+  font-size: 36px;
+  /* Adjust the font size */
+  font-weight: bold;
+  /* Set font weight to bold */
+  color: #4CAF50;
+  /* Set the color of the title */
+  text-align: center;
+  /* Align the title to the center */
+  text-transform: uppercase;
+  /* Convert text to uppercase */
+  letter-spacing: 2px;
+  /* Add some letter spacing */
+  margin: 20px 0;
+  /* Add some margin for spacing */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  /* Add a subtle text shadow */
 }
 
 .contact_section button {
@@ -602,13 +613,18 @@ a.nav-link {
   text-transform: uppercase;
 }
 
+.info_links,
+.info_social {
+  text-align: center;
+}
+
 .info_section .info_logo a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: center;
   margin-bottom: 25px;
 }
 
@@ -646,7 +662,7 @@ a.nav-link {
   text-transform: uppercase;
   background-color: #ffff00;
   -webkit-transform: translate(-102%);
-          transform: translate(-102%);
+  transform: translate(-102%);
   margin-top: 2.5px;
 }
 
@@ -666,4 +682,5 @@ a.nav-link {
 .footer_section a {
   color: #fefdfc;
 }
+
 /*# sourceMappingURL=style.css.map */
